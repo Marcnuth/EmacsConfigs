@@ -11,6 +11,7 @@
  '(fringe-mode (quote (nil . 0)) nil (fringe))
  '(indicate-empty-lines t)
  '(scroll-bar-mode nil)
+ '(show-paren-mode t)
  '(size-indication-mode t)
  '(tool-bar-mode nil)
  '(tooltip-mode nil))
@@ -21,6 +22,8 @@
  ;; If there is more than one, they won't work right.
  )
 
+;;set font size
+(set-face-attribute 'default nil :height 160)
 
 ;; all backups goto ~/.backups instead of in the current directory
 (setq backup-directory-alist (quote (("." . "~/.backups"))))
