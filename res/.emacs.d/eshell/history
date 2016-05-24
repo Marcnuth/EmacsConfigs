@@ -1,0 +1,37 @@
+ipython
+python
+ll
+ls
+cd res/
+ls
+ls
+ls
+ls
+ls
+ls
+ls
+cd .emacs.d/
+ls
+cd ..
+ll
+rm -rf *
+python
+ll
+cd ..
+ll
+python collect.py 
+ll
+cd re
+ll
+rm -rf res 
+ll
+ll
+ll
+ll
+ll
+ll
+ll
+ll
+ll
+python
+ipython
