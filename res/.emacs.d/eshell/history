@@ -35,3 +35,32 @@ ll
 ll
 python
 ipython
+cd dailyread/
+ll
+cp base.html LiChaDe_LianAi.html
+cd ..
+git add .;git commit -m "add new"; git push
+ll
+cd ~/Code/
+ll
+cd EmacsConfigs/
+ll
+cd res/
+ll
+cd ..
+ll
+python manage.py -c ~/
+cat res/.emacs.d/
+cat res/.emacs
+ll
+git add .;git commit -m "set emacs font size"; git push
+ll
+ll *~
+ll
+cd res/
+ll
+cd .emacs.d/
+ll
+cd auto-save-list/
+ll
+ls
