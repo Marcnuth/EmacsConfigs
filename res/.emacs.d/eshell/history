@@ -64,3 +64,48 @@ ll
 cd auto-save-list/
 ll
 ls
+ll
+cd dailyread/
+ll
+cp base.html ZhuYue_ShiRenYuZhenTan.html
+cd ..
+git add .;git commit -m "set emacs font size"; git push
+cd ../gappit/
+ll
+cd ..
+cd cordova/
+ll
+cd remoteWork/
+ll
+cd platforms/
+ll
+cd android/
+ll
+cd assets/
+ll
+cd ../res/
+ll
+cd drawable-mdpi/
+ll
+cp ~/Brilight/gappit/Gappit-PartTimeJob-Android/
+cp ~/Brilight/gappit/Gappit-PartTimeJob-Android/app/src/main/res/drawable/gappit_parttimejob_android_logo.png ./
+ll
+cd ba
+cd dailyread/
+ll
+cp base.html WangAnYi_PingYuanShang.html
+cd ..
+git add .;git commit -m "set emacs font size"; git push
+ll
+cd .emacs.d/
+ll
+cd el-get/
+ll
+ipython
+ipython notebook&
+ll
+emacs .emacs
+open .emacs
+ll
+cd Code/
+ll
