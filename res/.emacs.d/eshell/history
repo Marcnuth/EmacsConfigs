@@ -109,3 +109,10 @@ open .emacs
 ll
 cd Code/
 ll
+ll
+cd Brilight/
+ll
+cd ../Code/
+ll
+cd DataScienceInterestGroup/
+ll

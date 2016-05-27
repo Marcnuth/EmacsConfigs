@@ -61,5 +61,21 @@
 (setq fiplr-ignored-globs '((directories (".git" ".svn"))
                             (files ("*.jpg" "*.png" "*.zip" "*~" "*.pdf" "*.rar"))))
 
-(global-set-key (kbd "C-x f") 'fiplr-find-file)
+(global-set-key (kbd "M-p f") 'fiplr-find-file)
 
+
+;; R: set ess shortkey
+(global-set-key (kbd "M-p i") 'ess-eval-line)
+(global-set-key (kbd "M-p o") 'ess-eval-region)
+(global-set-key (kbd "M-p p") 'ess-eval-buffer)
+
+
+
+;; copy line
+(defun copy-line (arg)
+      "Copy lines (as many as prefix argument) in the kill ring"
+      (interactive "p")
+      (kill-ring-save (line-beginning-position)
+                      (line-beginning-position (+ 1 arg)))
+      (message "%d line%s copied" arg (if (= 1 arg) "" "s")))
+(global-set-key (kbd "M-p c") 'copy-line)
